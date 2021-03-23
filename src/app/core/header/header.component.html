@@ -1,0 +1,29 @@
+<header class="main-header clearfix" [ngClass]="{'menu-open': openMenu}">
+  <div class="content">
+    <a href="#" class="logo">
+      <h1>
+        <img src="assets/img/appIcon.png" />
+        <span>MiAlergia</span>
+      </h1>
+    </a>
+    <nav class="menu">
+      <ul>
+        <li>
+          <a class="" [routerLink]="['/proyecto']"><img src="assets/img/suitcase.svg" />{{ menu.project }}</a>
+        </li>
+        <li>
+          <a class="" (click)="openUrl('mailto:mia@fcien.edu.uy')"><img src="assets/img/letter.svg" />{{ menu.contactUs }}</a>
+        </li>
+      </ul>
+    </nav>
+
+    <div class="mobile-nav-launcher" (click)="openMenu = true">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+
+    <div class="close-mobile-menu" (click)="openMenu = false"></div>
+    <div class="bg-mobile-menu" (click)="openMenu = false"></div>
+  </div>
+</header>

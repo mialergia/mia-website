@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500,600,700,800|Lato:400,700,900|Inconsolata:400,700|Gloria+Hallelujah&display=swap');
+
+/*Headings*/
+h1 {
+  font-size: 2.5rem;
+}
+h2 {
+  font-size: 1.625rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1rem;
+}
+
+h5 {
+  font-size: 0.875rem;
+}
+
+h6 {
+  font-size: 0.75rem;
+}
+
+/*Fonts Size*/
+
+/*X Small - 12px*/
+.font_x_small {
+  font-size: 0.75rem;
+}
+
+/*Small - 14px*/
+.font_small {
+  font-size: 0.875rem;
+}
+
+/*Medium - 16px*/
+.font_medium {
+  font-size: 1rem;
+}
+
+/*Large - 20px*/
+.font_large {
+  font-size: 1.25rem;
+}
+
+/*X Large - 26px*/
+.font_x_large {
+  font-size: 1.625rem;
+}
+
+/*XX Large - 40px*/
+.font_xx_large {
+  font-size: 2.5rem;
+}

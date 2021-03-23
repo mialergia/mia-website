@@ -1,0 +1,103 @@
+/*Main Footer*/
+.main-footer {
+  background: #f0f2f4;
+  position: relative;
+  width: 100%;
+  padding: 25px;
+}
+.main-footer  .footer-container{
+  width: 1000px;
+  margin: 0 auto;
+
+}
+.main-footer .navigation {
+  float: left;
+}
+.main-footer .navigation li {
+  float: left;
+  margin-right: 30px;
+}
+.main-footer .navigation li a {
+  color: #000;
+  font-size: 16px;
+  cursor: pointer;
+}
+.main-footer .navigation li a:hover {
+  text-decoration: underline;
+}
+.main-footer .logo {
+  display: block;
+  text-decoration: none;
+  position: absolute;
+  right: 50%;
+  margin-right: -440px;
+  top: 15px;
+}
+.main-footer .logo h1 img {
+  width: 100%;
+  display: block;
+  width: 35px;
+  float: left;
+  margin-right: 10px;
+  position: relative;
+}
+.main-footer .logo h1 span {
+  font-size: 18px;
+  text-decoration: none;
+  color: #000;
+  display: block;
+  float: left;
+  top: 6px;
+  position: relative;
+}
+.download-on {
+  width: 370px;
+  margin: 0 auto;
+}
+.download-on li {
+  float: left;
+}
+.badge-icon{
+  width: 165px;
+  height: 50px;
+  margin-right: 10px;
+  margin-left: 10px;
+  opacity: 0.9;
+  cursor: pointer;
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.2));
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.2);
+  box-sizing: border-box;
+  border-radius: 10px;
+  object-fit: cover;
+}
+.badge-icon:hover{
+  opacity: 1;
+}
+
+.logos{
+  margin: 30px auto;
+}
+.logos li {
+  display: flex;
+  justify-content: center;
+}
+
+.logos .logo-icon{
+  height: 120px;
+}
+
+.pasteur-container {
+  width: 320px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.pasteur-container figure {
+  width: 150px;
+  background: #fff;
+  text-align: center;
+}
+
+.pasteur-container figure.compromiso-pasteur {
+  padding-top: 5px;
+}

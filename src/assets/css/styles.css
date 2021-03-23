@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');
+
+body {
+  font-family: 'Nunito', Tahoma, Arial, sans-serif;
+  font-size: 18px;
+  color: #2b374d;
+  padding-top: 110px;
+  background: #fff;
+}
+
+h1 { font-size: 40px;}
+h2 { font-size: 24px;}
+ h3 { font-size: 22px;}
+p { font-size: 18px;}
+a { text-decoration: none; cursor: pointer; color: cornflowerblue; }
+
+.clearfix:after {  content: '';  display: block;  clear: both; }
+.content { max-width: 1160px;  margin: 0 auto; }
+
+.project-button{
+  width: 170px;
+  height: 40px;
+  font-family: Nunito;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  border: none;
+  background: #619BF5;
+  border-radius: 24px;
+  filter: drop-shadow(0px 2px 5px rgba(0, 0, 0, 0.1));
+  color: #FFFFFF;
+  padding: 8px 30px;
+  display: block;
+  margin: 10px auto;
+  margin-top: 20px;
+}
+button:focus {  outline: none; }
+button[disabled] { opacity: 0.7; cursor: not-allowed; }
+
+input, select, textarea { font-family: 'Nunito', Tahoma, Arial, sans-serif;  outline: none; }
+
+.banner-img { height: 400px; }
+
+/*Page Content Wrapper*/
+.page-content-wrapper {
+  width: 1160px;
+  background-color:#fff;
+  margin: 0 auto;
+  margin-top: -10px;
+  padding: 40px 60px;
+  min-height: calc(100vh - 200px);
+}
+
+.page-content-wrapper h2 {
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.page-content-wrapper p {
+  text-align: justify;
+}
+
+.page-content-wrapper h3 {
+  margin-top: 20px;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+.page-content-wrapper.proyecto h3 {
+  margin-left: 15px;
+}
+.page-content-wrapper.proyecto p {
+  margin-left: 15px;
+}
+
+
+
+
