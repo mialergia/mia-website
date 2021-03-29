@@ -1,0 +1,53 @@
+<app-header></app-header>
+<div class="hero">
+  <figure class="hero-image-content">
+    <img src="assets/img/hero.jpg" alt="hero image" />
+  </figure>
+</div>
+<div class="page-content-wrapper content">
+  <h2 class=""></h2>
+  <p>
+    MIA es el resultado de un proyecto financiado por el Espacio Interdisciplinario, Universidad de la República. Fue desarrollado por
+    docentes y estudiantes de las facultades de Ciencias e Ingeniería y médicos del Hospital Pasteur.
+    <br /><br />
+    MIA, cuyo nombre surge a partir del acrónimo Mi Alergia, es una aplicación pensada para asistir al usuario alérgico en el seguimiento de
+    sus síntomas, es por esto que cuenta con un amigable diario, que permite dar de alta nuevos síntomas.
+    <br /><br />
+    Esta aplicación presenta información de los valores de concentración de polen y esporas de hongos en el aire de Montevideo. Se muestran
+    aquellos potencialmente alergénicos, que son utilizados por el personal médico en los prick tests de alergenicidad. Los granos de polen
+    y esporas de hongos son colectados por docentes del Laboratorio de Palinología de la Facultad de Ciencias de la Udelar, en el barrio de
+    Malvín Norte, utilizando un colector de partículas ubicado a 30 m de altura.
+    <br /><br />
+    En caso que los usuarios tengan identificadas sus alergias, podrán darlas de alta en el sistema y luego recibirán alertas acorde a las
+    mismas. Por otro lado, en caso de que el usuario ingrese un nuevo síntomás que pueda tener consecuencias en su vida diaria será
+    alertado, por ejemplo, indicando que visite a su médico.
+    <br /><br />
+    Los niveles altos y medios de concentración utilizados para generar las alertas aeropalinológicas de la presente APP están basados en
+    estudios realizados en Montevideo (Martínez-Blanco et al. 2016, Tejera et al. 2018, Tejera 2019) y en los niveles de concentración
+    máximos definidos internacionalmente para cada tipo de polen o espora. Cabe señalar que las concentraciones de polen y esporas en el
+    aire pueden diferir localmente por barrio o zona de la ciudad, dependiendo de las plantas que se encuentren en cada área, el grado de
+    urbanización y la presencia de terrenos baldíos o sin mantenimiento. Además, la concentración de las partículas en el aire también puede
+    verse influenciada por la velocidad y dirección del viento, por las condiciones de humedad del aire y el comportamiento espacio-temporal
+    de las lluvias.
+    <br /><br />
+    Por otra parte, la susceptibilidad de cada persona a los tipos polínicos y fúngicos reportados en esta APP debe ser determinada a nivel
+    individual por parte de un especialista médico (médico alergista u otorrinolaringólogo).
+    <br /><br />
+    Por ello, la información que se brinda en la APP es de carácter meramente orientativo y no representa un indicador de riesgo de sufrir
+    rinitis alérgica por parte de las personas sensibles a estos alérgenos.
+    <br /><br />
+    El uso de la app no tendrá ningún costo, ni recibirá ninguna ventaja financiera. Le recordamos que su participación no es obligatoria y
+    que podrá retirar su consentimiento en cualquier momento durante la encuesta, sin prejuicio suyo.
+    <br /><br />
+    Ante cualquier duda puede contactar con el investigador responsable desde la opcion <strong>{{ menu.contactUs }}</strong
+    >. <br /><br />
+    Por más información acerca de la aeropalinología de la ciudad de Montevideo (estudio de polen y esporas en el aire) visite
+    <a href="http://polenyesporas.fcien.edu.uy/">http://polenyesporas.fcien.edu.uy/</a>.
+  </p>
+  <br />
+  <p>
+    Por más información sobre datos técnicos del proyecto, puede consultar la sección Proyecto.
+    <a class="project-button" [routerLink]="['/proyecto']" routerLinkActive="router-link-active">Ver Proyecto</a>
+  </p>
+</div>
+<app-footer></app-footer>
