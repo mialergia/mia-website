@@ -1,0 +1,35 @@
+.p-mb-3 { padding: 20px;}
+.carousel { margin: 25px auto;}
+.carousel img.product-image {
+    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    border-radius: 8px;
+}
+
+::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
+  background-color: #00A07D;
+  opacity: 0.7;
+}
+::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button:focus {
+  outline: 0 none;
+  outline-offset: 0;
+  box-shadow: 0 0 0 0.2rem rgb(0, 160, 125, 0.3);
+}
+
+::ng-deep .p-carousel .p-carousel-content .p-carousel-prev:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0, 160, 125, 0.3);
+}
+::ng-deep .p-carousel .p-carousel-content .p-carousel-next:focus {
+    outline: 0 none;
+    outline-offset: 0;
+    box-shadow: 0 0 0 0.2rem rgb(0, 160, 125, 0.3);
+}
+
+@media screen and (max-width: 480px) {
+  ::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator button {
+      width: 6px;
+      height: 6px;
+      border-radius: 100%;
+  }
+}

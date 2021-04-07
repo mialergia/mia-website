@@ -1,5 +1,5 @@
 import {Component, OnInit} from '@angular/core';
-import {menu} from 'src/app/types/constants';
+import {MENU} from 'src/app/types/constants';
 
 @Component({
   selector: 'app-header',
@@ -7,7 +7,7 @@ import {menu} from 'src/app/types/constants';
   styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent implements OnInit {
-  public menu = menu;
+  public menu = MENU;
   public openMenu = false;
 
   constructor() {}

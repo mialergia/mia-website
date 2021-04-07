@@ -7,47 +7,77 @@
 <div class="page-content-wrapper content">
   <h2 class="">{{ title }}</h2>
   <p>
-    MIA es el resultado de un proyecto financiado por el Espacio Interdisciplinario, Universidad de la República. Fue desarrollado por
-    docentes y estudiantes de las facultades de Ciencias e Ingeniería y médicos del Hospital Pasteur.
+    MIA es una aplicación gratuita, pensada para asistir al usuario alérgico. Esta aplicación fue pensada y creada por profesionales de
+    distintas áreas, entre ellas el área de la medicina, de la palinología y de la ingeniería.
+  </p>
+
+  <div class="carousel">
+    <p-carousel [value]="images" [autoplayInterval]="5000" [numVisible]="numVisible" [numScroll]="numVisible" [circular]="true">
+      <ng-template let-images pTemplate="item">
+        <div class="product-item">
+          <div class="product-item-content">
+            <div class="p-mb-3">
+              <img src="assets/img/photos/{{ images }}" [alt]="images" class="product-image" />
+            </div>
+          </div>
+        </div>
+      </ng-template>
+    </p-carousel>
+  </div>
+  <p>
+    Descargando la aplicación MIA podrás ver los niveles de concentración de polen y esporas de hongos en el aire de Montevideo, los mismos
+    se muestran para los grupos, árboles, hierbas y hongos, y podrán ser calificados como alto, medio, o bajo, esta calificación será
+    visualmente distinguida mediante el uso de los colores del semáforo. La información sobre los niveles de polen y esporas de hongos es
+    recolectada por docentes del Laboratorio de Palinología de la Facultad de Ciencias de la Udelar de forma diaria.
+
     <br /><br />
-    MIA, cuyo nombre surge a partir del acrónimo Mi Alergia, es una aplicación pensada para asistir al usuario alérgico en el seguimiento de
-    sus síntomas, es por esto que cuenta con un amigable diario, que permite dar de alta nuevos síntomas.
+    Los niveles de polen o esporas de hongos de los distintos tipos de alérgenos que componen cada grupo, podrán ser revisados en detalle
+    mediante el botón de más info presente en cada grupo. Los tipos polínicos y fúngicos potencialmente alergénicos, son utilizados por el
+    personal médico en los tests prick de alergenicidad, por tanto, aquellos pacientes que se hayan realizado estos test, podrán ingresar en
+    su perfil sus alergias. Habiéndose ingresado alergias por parte del usuario, la aplicación alertará de forma personalizada, en el caso
+    de que una de estas alergias se vea afectada por los valores de polen o esporas de hongo que existan en el aire.
+
     <br /><br />
-    Esta aplicación presenta información de los valores de concentración de polen y esporas de hongos en el aire de Montevideo. Se muestran
-    aquellos potencialmente alergénicos, que son utilizados por el personal médico en los prick tests de alergenicidad. Los granos de polen
-    y esporas de hongos son colectados por docentes del Laboratorio de Palinología de la Facultad de Ciencias de la Udelar, en el barrio de
-    Malvín Norte, utilizando un colector de partículas ubicado a 30 m de altura.
+    MIA también cuenta con un amigable diario de síntomas, donde el usuario podrá ingresar cada vez que desee cómo se sintió en el día, el
+    alta de un evento en el diario de síntomas, consta de responder una serie de preguntas, pudiendo también agregar un comentario si el
+    usuarios lo desea. Las preguntas tienen respuestas predefinidas, y el usuario deberá elegir una de estas, al terminar de responder las
+    preguntas y en caso de que estas indique que el usuario está ante una crisis, se le mostrará una alerta, cómo por ejemplo, indicando que
+    inicie el tratamiento recetado o que visite a su médico. Cabe destacar que las preguntas y respuestas presentes en el diario de síntomas
+    fueron diseñadas por una comunidad de médicos alergistas. Todos los síntomas ingresados en el diario serán listados y mostrados al
+    usuario haciendo uso de los colores del semáforo para que el usuario pueda identificar fácilmente qué días se sintió mejor o peor,
+    pudiendo consultar qué datos ingresó en cada uno de ellos.
+
     <br /><br />
-    En caso que los usuarios tengan identificadas sus alergias, podrán darlas de alta en el sistema y luego recibirán alertas acorde a las
-    mismas. Por otro lado, en caso de que el usuario ingrese un nuevo síntomás que pueda tener consecuencias en su vida diaria será
-    alertado, por ejemplo, indicando que visite a su médico.
+    Los niveles altos y medios de concentración utilizados para generar las alertas aeropalinológicas de la presente aplicación, están
+    basados en estudios realizados en Montevideo y en los niveles de concentración máximos definidos internacionalmente para cada tipo de
+    polen o espora. Cabe señalar que las concentraciones de polen y esporas en el aire pueden diferir localmente por barrio o zona de la
+    ciudad, dependiendo de las plantas que se encuentren en cada área, el grado de urbanización y la presencia de terrenos baldíos o sin
+    mantenimiento. Además, la concentración de las partículas en el aire también puede verse influida por la velocidad y dirección del
+    viento, por las condiciones de humedad del aire y el comportamiento espacio-temporal de las lluvias.
+
     <br /><br />
-    Los niveles altos y medios de concentración utilizados para generar las alertas aeropalinológicas de la presente APP están basados en
-    estudios realizados en Montevideo (Martínez-Blanco et al. 2016, Tejera et al. 2018, Tejera 2019) y en los niveles de concentración
-    máximos definidos internacionalmente para cada tipo de polen o espora. Cabe señalar que las concentraciones de polen y esporas en el
-    aire pueden diferir localmente por barrio o zona de la ciudad, dependiendo de las plantas que se encuentren en cada área, el grado de
-    urbanización y la presencia de terrenos baldíos o sin mantenimiento. Además, la concentración de las partículas en el aire también puede
-    verse influenciada por la velocidad y dirección del viento, por las condiciones de humedad del aire y el comportamiento espacio-temporal
-    de las lluvias.
+    Por otra parte, la susceptibilidad de cada persona a los tipos polínicos y fúngicos reportados en esta aplicación debe ser determinada a
+    nivel individual por parte de un especialista médico (alergista u otorrinolaringólogo).
     <br /><br />
-    Por otra parte, la susceptibilidad de cada persona a los tipos polínicos y fúngicos reportados en esta APP debe ser determinada a nivel
-    individual por parte de un especialista médico (médico alergista u otorrinolaringólogo).
+    Por ello, la información que se brinda en la aplicación es de carácter meramente orientativo y no representa un indicador de riesgo de
+    sufrir rinitis alérgica por parte de las personas sensibles a estos alérgenos.
     <br /><br />
-    Por ello, la información que se brinda en la APP es de carácter meramente orientativo y no representa un indicador de riesgo de sufrir
-    rinitis alérgica por parte de las personas sensibles a estos alérgenos.
+
+    MIA también cuenta con un sistema de notificaciones, que el usuario podrá activar si así lo desea, una de ellas es para recibir un
+    recordatorio diario para agregar un nuevo evento al diario de síntomas, la segunda es para recibir una notificación cada vez que se
+    actualicen los niveles de polen.
+
     <br /><br />
-    El uso de la app no tendrá ningún costo, ni recibirá ninguna ventaja financiera. Le recordamos que su participación no es obligatoria y
-    que podrá retirar su consentimiento en cualquier momento durante la encuesta, sin prejuicio suyo.
+    En MIA también podrá consultar fichas informativas sobre los distintos alergenos, los mismo que se detectan en los test pricks, estas
+    fichas fueron diseñadas para orientar a los pacientes en el reconocimiento de las plantas cuyo polen les causa alergia, así como también
+    dar algunas medidas preventivas.
+
     <br /><br />
-    Ante cualquier duda puede contactar con el investigador responsable desde la opcion <strong>{{ menu.contactUs }}</strong
+    Ante cualquier duda, puede contactar con el investigador responsable desde la opción <strong>{{ menu.contactUs }}</strong
     >. <br /><br />
     Por más información acerca de la aeropalinología de la ciudad de Montevideo (estudio de polen y esporas en el aire) visite
     <a href="http://polenyesporas.fcien.edu.uy/">http://polenyesporas.fcien.edu.uy/</a>.
   </p>
   <br />
-  <p>
-    Por más información sobre datos técnicos del proyecto, puede consultar la sección Proyecto.
-    <a class="project-button" [routerLink]="['/proyecto']" routerLinkActive="router-link-active">Ver Proyecto</a>
-  </p>
 </div>
 <app-footer></app-footer>
