@@ -9,10 +9,17 @@
     <nav class="menu">
       <ul>
         <li>
-          <a class="" [routerLink]="['/proyecto']"><img src="assets/img/suitcase.svg" />{{ menu.project }}</a>
+          <a [ngClass]="{active: router.url === '/' + menu.team}" [routerLink]="['/', menu.team]"
+            ><img src="assets/img/team.svg" />{{ menu.team | titlecase }}</a
+          >
         </li>
         <li>
-          <a class="" (click)="openUrl('mailto:mia@fcien.edu.uy')"><img src="assets/img/letter.svg" />{{ menu.contactUs }}</a>
+          <a [ngClass]="{active: router.url === '/' + menu.project}" [routerLink]="['/', menu.project]"
+            ><img src="assets/img/suitcase.svg" />{{ menu.project | titlecase }}</a
+          >
+        </li>
+        <li>
+          <a (click)="openUrl('mailto:mia@fcien.edu.uy')"><img src="assets/img/letter.svg" />{{ menu.contactUs }}</a>
         </li>
       </ul>
     </nav>

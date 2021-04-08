@@ -75,14 +75,24 @@
 }
 
 .logos{
-  margin: 30px auto;
+  margin: 16px auto;
+  max-width: 696px;
 }
 .logos li {
-  display: flex;
-  justify-content: center;
-}
+  float: left;
+  margin: 12px;
+  width: 150px;
+  height: 130px;
+  background: #FFF;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 10px rgb(0 0 0 / 10%);
 
-.logos .logo-icon{
+}
+.logos li img.logo-icon {
+  height: 130px;
+  width: 150px;
+  object-fit: contain;
+  padding: 5px;
   height: 120px;
 }
 
@@ -100,4 +110,9 @@
 
 .pasteur-container figure.compromiso-pasteur {
   padding-top: 5px;
+}
+
+
+@media screen and (max-width: 696px) {
+  .logos{   max-width: 348px;}
 }

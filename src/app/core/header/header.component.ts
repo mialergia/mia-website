@@ -1,4 +1,5 @@
 import {Component, OnInit} from '@angular/core';
+import {Router} from '@angular/router';
 import {MENU} from 'src/app/types/constants';
 
 @Component({
@@ -10,7 +11,7 @@ export class HeaderComponent implements OnInit {
   public menu = MENU;
   public openMenu = false;
 
-  constructor() {}
+  constructor(public router: Router) {}
 
   ngOnInit(): void {}
 
