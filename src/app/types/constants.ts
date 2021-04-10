@@ -54,9 +54,7 @@ export const ENGINEER_TEAM = [
     description: 'Doctora en Ciencias de la Computación y responsable del proyecto',
     image: 'libertad-tansini.png',
   },
-
   {name: 'Regina Motz', description: 'Doctora en Ciencias de la Computación', image: 'regina-motz.png'},
-
   {name: 'Tamara Suárez', description: 'Estudiante de Ingeniería en Computación', image: 'tamara-suarez.png'},
   {name: 'Natalia Campiglia ', description: 'Estudiante de Ingeniería en Computación', image: 'natalia-campiglia.png'},
 ];
