@@ -1,3 +1,11 @@
+# Usage:
+# 
+#       Build image:
+#       docker build . -t naticampi/angularapp
+# 
+#       Run image
+#       sudo docker run -p 4200:80 naticampi/angularapp
+
 FROM node:12.16.1-alpine As builder
 
 WORKDIR /usr/src/app
