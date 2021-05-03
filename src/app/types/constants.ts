@@ -38,14 +38,14 @@ export const IMAGES = [
 export const DOCTORS_TEAM = [
   {name: 'Mariana Bonifacino', description: 'Doctora, especialista en Alergología', image: 'mariana-bonifacino.png'},
   {name: 'Rosario Eugui', description: 'Doctora, especialista en Otorrinolaringología', image: 'rosario-eugui.png'},
-  {name: 'Carina Almirón', description: 'Doctora, especialista en Otorrinolaringología', image: null},
-  {name: 'Patricia Indarte', description: 'Doctora, especialista en Otorrinolaringología', image: null},
+  {name: 'Patricia Indarte', description: 'Doctora, especialista en Otorrinolaringología', image: 'patricia-indarte.png'},
+  {name: 'Carina Almirón', description: 'Doctora, especialista en Otorrinolaringología', image: 'doctor.svg'},
 ];
 
 export const BIOLOGY_TEAM = [
   {name: 'Ángeles Beri', description: 'Doctora en Ciencias Biológicas y responsable del proyecto', image: 'angeles-beri.png'},
-  {name: 'Ximena Martínez', description: 'Doctora en Ciencias Biológicas Otorrinolaringología.', image: null},
-  {name: 'Alejandra Leal', description: 'Doctorado en Ciencias Biológicas', image: null},
+  {name: 'Ximena Martínez', description: 'Doctora en Ciencias Biológicas Otorrinolaringología.', image: 'scientist.svg'},
+  {name: 'Alejandra Leal', description: 'Doctorado en Ciencias Biológicas', image: 'scientist.svg'},
 ];
 
 export const ENGINEER_TEAM = [
