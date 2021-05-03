@@ -38,8 +38,8 @@ export const IMAGES = [
 export const DOCTORS_TEAM = [
   {name: 'Mariana Bonifacino', description: 'Doctora, especialista en Alergología', image: 'mariana-bonifacino.png'},
   {name: 'Rosario Eugui', description: 'Doctora, especialista en Otorrinolaringología', image: 'rosario-eugui.png'},
+  {name: 'Patricia Indarte', description: 'Doctora, especialista en Otorrinolaringología', image: 'patricia-indarte.png'},
   {name: 'Carina Almirón', description: 'Doctora, especialista en Otorrinolaringología', image: 'doctor.svg'},
-  {name: 'Patricia Indarte', description: 'Doctora, especialista en Otorrinolaringología', image: 'doctor.svg'},
 ];
 
 export const BIOLOGY_TEAM = [
