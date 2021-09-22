@@ -112,6 +112,8 @@
   padding-top: 5px;
 }
 
+a.terms { display: block; text-align: center; margin-top: 16px; color: #696969;}
+a.terms:hover { text-decoration: underline;}
 
 @media screen and (max-width: 696px) {
   .logos{   max-width: 348px;}
