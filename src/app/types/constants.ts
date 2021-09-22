@@ -19,7 +19,7 @@ export const DOCTORS_TEAM = [
 export const BIOLOGY_TEAM = [
   {name: 'Ángeles Beri', description: 'Doctora en Ciencias Biológicas y responsable del proyecto', image: 'angeles-beri.png'},
   {name: 'Alejandra Leal', description: 'Doctorado en Ciencias Biológicas', image: 'scientist.svg'},
-  {name: 'Ximena Martínez', description: 'Doctora en Ciencias Biológicas Otorrinolaringología.', image: 'scientist.svg'},
+  {name: 'Ximena Martínez', description: 'Doctora en Ciencias Biológicas', image: 'scientist.svg'},
 ];
 
 export const ENGINEER_TEAM = [
