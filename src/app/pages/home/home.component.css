@@ -1,9 +1,5 @@
-.p-mb-3 { padding: 20px;}
+.p-mb-3 { padding: 0px;}
 .carousel { margin: 25px auto;}
-.carousel img.product-image {
-    box-shadow: 0 3px 6px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
-    border-radius: 8px;
-}
 
 ::ng-deep .p-carousel .p-carousel-indicators .p-carousel-indicator.p-highlight button {
   background-color: #00A07D;
